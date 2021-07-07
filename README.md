@@ -1,5 +1,8 @@
-# lean python framework by making weather app
+# learn python frameworks by making weather app
 weather app using different python framework
+
+![](https://img.shields.io/github/repo-size/itsvinayak/weather-app.svg?label=Repo%20size&style=flat-square)&nbsp;
+[![Made with python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://github.com/itsvinayak/weather-app)
 
 > Django
 
@@ -13,22 +16,36 @@ Flask is a lightweight WSGI web application framework. It is designed to make ge
 
 <a href="https://github.com/itsvinayak/weather-app/tree/master/weather-flask" >project link </a>
 
->twinkle
+>tkinter
 
 Python offers multiple options for developing GUI (Graphical User Interface). Out of all the GUI methods, tkinter is the most commonly used method. It is a standard Python interface to the Tk GUI toolkit shipped with Python. Python with tkinter outputs the fastest and easiest way to create the GUI applications.
 
-<a href="https://github.com/itsvinayak/weather-app/tree/master/weather-twinkle" >project link </a>
+<a href="https://github.com/itsvinayak/weather-app/tree/master/weather-tkinter" >project link </a>
 
 ---
 
-# activate virtual environment for repositories
-
-<pre>source bin/activate </pre>
+## Virtualenv & Dependencies
+### create a virtualenv and run requirements.txt<br/>
 
 <b> what is virtual environment ? </b><br/>
 A virtual environment is a tool that helps to keep dependencies required by different projects separate by creating isolated python virtual environments for them. This is one of the most important tools that most of the Python developers use.
+<br/>
 <a href="https://www.geeksforgeeks.org/python-virtual-environment/" >read more... </a>
 
+- <b>installing virtualenv</b>
+<pre>$ pip install virtualenv</pre>
+
+- <b>creating virtualenv</b>
+<pre>$ virtualenv env</pre>
+env is name of environment
+
+- <b>activating virtual environment</b>
+<pre>$ source env/bin/activate </pre>
+
+- <b>run requirements.txt</b>
+<pre>$ pip install -r requirements.txt</pre>
+
+Note: each application contains its own requirements
 
 ---
 
